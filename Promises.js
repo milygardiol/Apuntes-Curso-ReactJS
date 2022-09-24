@@ -53,6 +53,7 @@ useEffect(( ) => {
 
 // Método map
 // De un array se puede generar otro array
+// Método que sirve para tomar un nuevo array, en base a otro y utilzando una funcón transformadora.
 
 productos.map ( p => p.toLoverCase())
 productos.map ( p => p.toUpperCase())
